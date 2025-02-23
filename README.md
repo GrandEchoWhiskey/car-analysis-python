@@ -17,6 +17,7 @@ Projekt wymaga następujących pakietów:
 - `requests`
 - `beautifulsoup4`
 - `matplotlib`
+- `seaborn`
 
 Aby zainstalować wymagane zależności, uruchom:
 ```bash
