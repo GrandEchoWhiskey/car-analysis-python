@@ -1,17 +1,17 @@
 # Car Analytics
 
-## Opis projektu
-Car Analytics to projekt analizy danych samochodowych, który wykorzystuje web scraping do zbierania informacji i analizowania danych dotyczących pojazdów. Projekt jest oparty na języku Python i zawiera skrypty do ekstrakcji, przetwarzania i analizy danych.
+## Project Description
+Car Analytics is a data analysis project that utilizes web scraping to collect and analyze vehicle-related information. The project is based on Python and includes scripts for data extraction, processing, and analysis.
 
-## Struktura projektu
+## Project Structure
 
-- `.gitignore` – Lista plików i folderów ignorowanych przez Git.
-- `README.md` – Dokumentacja projektu.
-- `caranalytics.ipynb` – Notebook Jupyter zawierający kod do analizy danych samochodowych.
-- `webscrapper.ipynb` – Notebook Jupyter odpowiedzialny za web scraping danych.
+- `.gitignore` – List of files and folders ignored by Git.
+- `README.md` – Project documentation.
+- `caranalytics.ipynb` – Jupyter Notebook containing code for vehicle data analysis.
+- `webscrapper.ipynb` – Jupyter Notebook responsible for web scraping data.
 
-## Wymagania
-Projekt wymaga następujących pakietów:
+## Requirements
+The project requires the following packages:
 
 - `pandas`
 - `requests`
@@ -19,15 +19,7 @@ Projekt wymaga następujących pakietów:
 - `matplotlib`
 - `seaborn`
 
-Aby zainstalować wymagane zależności, uruchom:
+To install the required dependencies, run:
 ```bash
 pip install -r requirements.txt
 ```
-
-## Jak uruchomić projekt
-1. Uruchom `webscrapper.ipynb`, aby pobrać dane.
-2. Uruchom `caranalytics.ipynb`, aby przeanalizować zebrane dane.
-
-## Autor
-Twórca projektu zajmuje się analizą danych w Pythonie i pracuje nad różnymi projektami związanymi z Raspberry Pi oraz serwerami NAS.
-
